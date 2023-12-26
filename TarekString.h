@@ -8,9 +8,9 @@
  *
  * @param
  *  str − This is the pointer to the block of memory where the search is performed.
-
-c − This is the value to be passed as an int, but the function performs a byte per byte search using the unsigned char conversion of this value.
-
+ *
+ * c − This is the value to be passed as an int, but the function performs a byte per byte search using the unsigned char conversion of this value.
+*
 * n − This is the number of bytes to be analyzed.
 * @return This function returns a pointer to the matching byte or NULL if the character does not occur in the given memory area.
 */
@@ -18,16 +18,16 @@ void *Tarekmemchr(const void *str, int c, int n);
 /**
  * @param
  * str1 − This is the pointer to a block of memory.
-
-str2 − This is the pointer to a block of memory.
-
-n − This is the number of bytes to be compared.
+ *
+ * str2 − This is the pointer to a block of memory.
+ *
+ * n − This is the number of bytes to be compared.
  * @return 
  * if Return value < 0 then it indicates str1 is less than str2.
-
-if Return value > 0 then it indicates str2 is less than str1.
-
-if Return value = 0 then it indicates str1 is equal to str2.
+ *
+ * if Return value > 0 then it indicates str2 is less than str1.
+ *
+ * if Return value = 0 then it indicates str1 is equal to str2.
 */
 int Tarekmemcmp(const void *str1, const void *str2, size_t n);
 /**
