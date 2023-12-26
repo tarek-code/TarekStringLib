@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "strings_tarek",
+			"command": "E:/mingw64/bin/gcc.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${workspaceFolder}\\*.c",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe",
+				""
+			],
+			"options": {
+				"cwd": "E:/mingw64/bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: E:/mingw64/bin/gcc.exe"
+		}
+	]
+}
